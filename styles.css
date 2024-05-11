@@ -5,6 +5,11 @@
     align-items:center;
 }
 
+body{
+    background-color: black;
+    color:white;
+}
+
 .dual-container{
     display:grid;
     justify-items: center;
@@ -12,9 +17,4 @@
     width:700px;
     grid-template-columns: 1fr 1fr;
     align-items:center; 
-}
-
-body{
-    color:rgb(220, 220, 220);
-    background-color: black;
 }
